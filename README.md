@@ -25,5 +25,4 @@
 
 ## Next Steps
 - Create Input component that can handle passing of React Hook Form refs to an input element.
-- Create critical css to get 100 rating on mobile for PageSpeed Insight report
-- 
+- Write a password validation regex, include min length requirement
