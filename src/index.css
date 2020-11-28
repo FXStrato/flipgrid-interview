@@ -1,3 +1,5 @@
+@import-normalize; /* bring in normalize.css styles */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,118 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #eaeaea;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 40px;
+}
+
+.form-box {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.form-box__input {
+  width: 100%;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  border: #c9c9c9 2px solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button {
+  background: #9f0345;
+  min-width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.button:disabled {
+  transition: background 0.5s ease;
+  background: gray;
+  pointer-events: none;
+}
+
+.align-right {
+  display: flex;
+  justify-content: right;
+}
+
+.hvr-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-shadow:hover,
+.hvr-shadow:focus,
+.hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.loading-zoom {
+  animation-fill-mode: both;
+  animation-duration: .4s;
+  animation-name: loading-zoom;
+}
+
+@keyframes loading-zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes loading-remove {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 0px;
+  }
 }

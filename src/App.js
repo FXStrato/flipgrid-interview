@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Suspense, lazy } from 'react';
+import { Switch, Route } from 'react-router-dom';
+const Signup = lazy(() => import('./routes/Signup'));
+const Confirmation = lazy(() => import('./routes/Confirmation'));
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          <Route exact path='/' render={() => <Signup />} />
+          <Route path='/confirmation' render={() => <Confirmation />} />
+          <Route path='*'>
+            <div className='form-box'>
+              <h1>Oops!</h1>
+              <p>There's nothing here!</p>
+            </div>
+          </Route>
+        </Switch>
+      </Suspense>
     </div>
   );
-}
+};
 
 export default App;

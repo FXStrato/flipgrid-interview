@@ -1,0 +1,10 @@
+.confirmed-form {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .confirmed-form {
+      width: 400px;
+    }
+  }
+  
