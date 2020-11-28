@@ -73,7 +73,7 @@ const SignUpForm = () => {
           )}
         </p>
         <div className='align-right'>
-          <Button text='Sign Up' loading={loading} disabled={loading} />
+          <Button text='Sign Up' type='submit' loading={loading} disabled={loading} />
         </div>
       </form>
     </div>
