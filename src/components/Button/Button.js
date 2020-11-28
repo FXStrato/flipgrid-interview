@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Loading from './Loading';
+import Loading from '../Loading/Loading';
 
 const Button = (props) => {
   const { className, disabled, loading, text, onClick } = props;

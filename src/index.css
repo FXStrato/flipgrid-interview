@@ -95,7 +95,7 @@ label {
 
 .loading-zoom {
   animation-fill-mode: both;
-  animation-duration: .4s;
+  animation-duration: 0.4s;
   animation-name: loading-zoom;
 }
 
@@ -107,16 +107,6 @@ label {
     transform: scale(1);
   }
 }
-
-@keyframes loading-remove {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .container {
     padding: 0px;

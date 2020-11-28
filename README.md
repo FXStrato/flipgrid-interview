@@ -1,18 +1,29 @@
 # Flipgrid Coding Exercise
 
 - https://fxstrato.github.io/flipgrid-interview/
+- [PageSpeed Insight Report](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ffxstrato.github.io%2Fflipgrid-interview%2F&tab=desktop)
 
 ## Tech Used
 - [Create React App](https://github.com/facebook/create-react-app) for bootstrapping application
 - [React Hook Form](https://react-hook-form.com/) for form validation
 - [React Router DOM](https://reactrouter.com/web/guides/quick-start) for routing
+- [React Snap](https://github.com/stereobooster/react-snap) for inlining critical css
 
+## Structure
+- src
+    - components (reusable components)
+    - routes (assigns templates to specific routes)
+    - templates (made up of components, and called by routes)
+- index.js (entry point)
+- App.js (contains router and layout wrapper)
 
 ## Notes
 - Added delay to Sign Up to replicate time taken to validate in the backend
-- Added loading state to button to show visual delay
+- Added loading state/component to button to show visual delay
 - Added no match error page for non matching routes
+- Small custom favicon
 
-## Caveats
-- Did not make an Input component as React Hook Form uses it's own register for ref, decided to go the easier route and just make the inputs inside the Signup form. If given more time, would have figured out how to set up the ref properly as a prop.
-- Did not make a Header component as the header itself was simple enough to just be an h1 with an inline style; if it had more to it, would definitely have it be its own component.
+## Next Steps
+- Create Input component that can handle passing of React Hook Form refs to an input element.
+- Create critical css to get 100 rating on mobile for PageSpeed Insight report
+- 
