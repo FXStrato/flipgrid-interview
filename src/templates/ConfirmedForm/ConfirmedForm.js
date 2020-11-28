@@ -7,7 +7,7 @@ const ConfirmedForm = () => {
   const { state } = location;
   return (
     <div className='confirmed-form form-box'>
-      {state.firstname && state.email ? (
+      {state && state.firstname && state.email ? (
         <>
           <h1>
             <span style={{ fontWeight: 500 }}>Welcome,</span>
