@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/flipgrid-interview/static/css/main.bf88ca18.chunk.css",
-    "main.js": "/flipgrid-interview/static/js/main.64fc45e9.chunk.js",
-    "main.js.map": "/flipgrid-interview/static/js/main.64fc45e9.chunk.js.map",
+    "main.js": "/flipgrid-interview/static/js/main.06a0fda8.chunk.js",
+    "main.js.map": "/flipgrid-interview/static/js/main.06a0fda8.chunk.js.map",
     "runtime-main.js": "/flipgrid-interview/static/js/runtime-main.5decb89e.js",
     "runtime-main.js.map": "/flipgrid-interview/static/js/runtime-main.5decb89e.js.map",
-    "static/js/2.5aa684e9.chunk.js": "/flipgrid-interview/static/js/2.5aa684e9.chunk.js",
-    "static/js/2.5aa684e9.chunk.js.map": "/flipgrid-interview/static/js/2.5aa684e9.chunk.js.map",
+    "static/js/2.df57a849.chunk.js": "/flipgrid-interview/static/js/2.df57a849.chunk.js",
+    "static/js/2.df57a849.chunk.js.map": "/flipgrid-interview/static/js/2.df57a849.chunk.js.map",
     "static/js/3.a2b8e758.chunk.js": "/flipgrid-interview/static/js/3.a2b8e758.chunk.js",
     "static/js/3.a2b8e758.chunk.js.map": "/flipgrid-interview/static/js/3.a2b8e758.chunk.js.map",
     "static/css/4.9ed10e61.chunk.css": "/flipgrid-interview/static/css/4.9ed10e61.chunk.css",
@@ -21,13 +21,13 @@
     "static/css/4.9ed10e61.chunk.css.map": "/flipgrid-interview/static/css/4.9ed10e61.chunk.css.map",
     "static/css/5.3ab0f0e1.chunk.css.map": "/flipgrid-interview/static/css/5.3ab0f0e1.chunk.css.map",
     "static/css/main.bf88ca18.chunk.css.map": "/flipgrid-interview/static/css/main.bf88ca18.chunk.css.map",
-    "static/js/2.5aa684e9.chunk.js.LICENSE.txt": "/flipgrid-interview/static/js/2.5aa684e9.chunk.js.LICENSE.txt",
+    "static/js/2.df57a849.chunk.js.LICENSE.txt": "/flipgrid-interview/static/js/2.df57a849.chunk.js.LICENSE.txt",
     "static/js/3.a2b8e758.chunk.js.LICENSE.txt": "/flipgrid-interview/static/js/3.a2b8e758.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5decb89e.js",
-    "static/js/2.5aa684e9.chunk.js",
+    "static/js/2.df57a849.chunk.js",
     "static/css/main.bf88ca18.chunk.css",
-    "static/js/main.64fc45e9.chunk.js"
+    "static/js/main.06a0fda8.chunk.js"
   ]
 }
