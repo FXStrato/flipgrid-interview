@@ -8,7 +8,7 @@ const App = () => {
     <div className='container'>
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
-          <Route exact path='/' render={() => <Signup />} />
+          <Route path='/' render={() => <Signup />} />
           <Route path='/confirmation' render={() => <Confirmation />} />
           <Route path='*'>
             <div className='form-box'>
