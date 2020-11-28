@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router-dom';
 import Button from '../../components/Button/Button';
+import Input from '../../components/Input/Input';
 import './SignUpForm.css';
 
 const SignUpForm = () => {
@@ -35,7 +36,7 @@ const SignUpForm = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <p>
           <label htmlFor='firstname'>First Name</label>
-          <input
+          <Input
             className='form-box__input'
             name='firstname'
             id='firstname'
@@ -48,7 +49,7 @@ const SignUpForm = () => {
         </p>
         <p>
           <label htmlFor='email'>Email Address</label>
-          <input
+          <Input
             className='form-box__input'
             name='email'
             type='email'
@@ -61,7 +62,7 @@ const SignUpForm = () => {
         </p>
         <p>
           <label htmlFor='password'>Password</label>
-          <input
+          <Input
             className='form-box__input'
             name='password'
             type='password'

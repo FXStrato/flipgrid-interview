@@ -24,6 +24,5 @@
 - Small custom favicon
 
 ## Next Steps
-- Create Input component that can handle passing of React Hook Form refs to an input element.
 - Write a password validation regex, include min length requirement
 - Figure out how Github Pages works with React Router before making a mess out of the commit history

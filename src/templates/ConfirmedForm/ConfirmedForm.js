@@ -15,7 +15,7 @@ const ConfirmedForm = () => {
           </h1>
           <p>
             You have been registered for this awesome service. Please check your
-            email listed below for instructions
+            email listed below for instructions.
           </p>
           <p style={{ fontWeight: 700 }}>{state.email}</p>
           <div className='align-right'>
