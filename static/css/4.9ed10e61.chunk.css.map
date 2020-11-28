@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/templates/ConfirmedForm/ConfirmedForm.css"],"names":[],"mappings":"AAAA,gBACI,UACJ,CAEA,yCACI,gBACE,WACF,CACF","file":"4.9ed10e61.chunk.css","sourcesContent":[".confirmed-form {\r\n    width: 100%;\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n    .confirmed-form {\r\n      width: 400px;\r\n    }\r\n  }\r\n  "]}
